@@ -18,7 +18,7 @@ namespace Assignment1_n01486790.Controllers
         ///</example> 
         /// </summary>
         /// <param name="id"> The number of days web hosting has been in use </param>
-        /// <returns> The initial cost, the HST cost, and the total cost of the service. </returns>
+        /// <returns> The initial cost before tax, the HST cost, and the total cost of the service. </returns>
 
         // GET api/HostingCost/{id} 
         public IEnumerable<string> Get(int id) 
